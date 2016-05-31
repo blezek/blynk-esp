@@ -30,7 +30,7 @@ wifi_password = "SuperSecret"
 wifi_access_point = "ThisSpaceForRent"
 ```
 
-Download the Blynk app ( [Android](http://j.mp/blynk_Android) or [iOS](http://j.mp/blynk_iOS)), load the sample Blynk app, touch the QR icon and point the camera to the code below or visit http://tinyurl.com/jkpse8h.
+Download the Blynk app ( [Android](http://j.mp/blynk_Android) or [iOS](http://j.mp/blynk_iOS)), load the sample Blynk app, touch the QR icon and point the camera to the code below or visit http://tinyurl.com/jg3fes4.
 
 ![QR](Blynk-esp-qr.png)
 
