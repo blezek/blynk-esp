@@ -86,7 +86,8 @@ function connecting(wifi_ssid, wifi_password)
 end
 
 
-
+-- Load the Blynk library
+dofile ( 'blynk.lua' )
 if wifi_access_point == "" and wifi_password == "" then
    print ("=============\nPlease edit init.lua and set:\n\tWiFi Access Point\n\tPassword\n\tBlynk token")
    print ("=============")
