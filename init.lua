@@ -63,8 +63,12 @@ end
 
 -- Connect to my wifi
 function connecting(wifi_ssid, wifi_password)
+	local station_cfg = {}
+	station_cfg.ssid = wifi_ssid
+	station_cfg.pwd = wifi_password
+
     wifi.setmode(wifi.STATION)
-    wifi.sta.config(wifi_ssid, wifi_password)
+    wifi.sta.config(station_cfg)
 
     tmr.alarm(0, 500, 1, function()
         if wifi.sta.getip()==nil then
